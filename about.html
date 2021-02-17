@@ -2,27 +2,7 @@
 	<title>KevcoreMC Site</title>
 	<link rel="KC ICON" type="image/png" href="https://cdn.discordapp.com/attachments/782313784215601222/792900639226986534/purpletransparentKC.png"/>
 <head>
-<style>
-body {
-  background-image: url('https://cdn.discordapp.com/attachments/746919789204865037/788547041307131914/Screenshot_173.png');
-  background-size: 100% 100%;
-  color : white;
-  font-family:'Segoe UI'
-}
-
-table.centre-tr tr {
-	text-align: center;
-}
-table.centre-tr td {
-	width: 178.667px; text-align: center; font-family:'Segoe UI';
-}
-p.text {
-	padding-left: 30px; font-family:'Segoe UI';
-}
-p.t {
-	font-family:'Segoe UI';
-}
-</style>
+	<link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -43,8 +23,8 @@ p.t {
 						<td>­|</td>
 						<td style="width: 41px; font-family:'Segoe UI';"><span style="color:white">Background:</span></a></td>
 					
-							<td><button onclick="changeBackgroundBlack();">Black</button></td>
-							<td><button onclick="changeBackgroundPic();">AquaTown</button></td>
+							<td><button class="backcolor" onclick="changeBackgroundBlack();">Black</button></td>
+							<td><button class="backcolor" onclick="changeBackgroundPic();">AquaTown</button></td>
 								<script type="text/javascript">        
 									 function changeBackgroundBlack() {
 										document.body.style.background = 'url(black.jpg)';
