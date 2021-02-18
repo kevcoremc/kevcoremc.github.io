@@ -34,3 +34,8 @@ p.text {
     border-radius: 4px;
     border-color: white;
   }
+.toggle {
+  cursor: pointer;
+  font-size: 50px;  
+  color: aqua;
+}
