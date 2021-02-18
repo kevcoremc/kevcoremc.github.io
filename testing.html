@@ -1,0 +1,65 @@
+<html>
+	<title>KevcoreMC Site</title>
+	<link rel="KC ICON" type="image/png" href="https://cdn.discordapp.com/attachments/782313784215601222/792900639226986534/purpletransparentKC.png"/>
+<head>
+<script data-ad-client="ca-pub-2365744816784252" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<meta name="google-site-verification" content="uKgbJcvHJ1T7f8CwICnre6Ycq8xF5ZrSUhD_ralA2PE" /><body>
+	<script src="https://kit.fontawesome.com/12f947cdbf.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./style.css">
+</head>
+<table class="cc_cursor" style="height: 31px;" width="51">
+<tbody>
+<tr>
+
+					<!--pages-->
+
+	<td style="width: 41px; color: orchid"><a href="https://kevcoremc.github.io/"><span><img style="float: left;" src="https://cdn.discordapp.com/attachments/782313784215601222/792900639226986534/purpletransparentKC.png" alt="KC logo" width="64" height="64" /></span></td>
+	<td style="width: 41px; font-family:'Segoe UI';"><a href="./index.html"><span style="color:hotpink"><strong>Home</strong></span></a></td>
+	<td>|</td>
+	<td style="width: 41px; font-family:'Segoe UI';"><a href="./about.html"><span style="color:hotpink"><strong>About</strong></span></a></td>
+	<td>|</td>
+	<td style="width: 41px; font-family:'Segoe UI';"><a href="./wiki.html"><span style="color:hotpink"><strong>Wiki</strong></span></a></td>
+	<td>|</td>
+	<td style="width: 41px; font-family:'Segoe UI';"><a href="./contents.html"><span style="color:hotpink"><strong>More</strong></span></a></td>
+	<td>­|</td>
+	<td style="width: 41px; font-family:'Segoe UI';"><span style="color:white">Background:</span></a></td>
+
+		<td><button class="backcolor" onclick="changeBackgroundBlack();">Black</button></td>
+		<td><button class="backcolor" onclick="changeBackgroundPic();">AquaVill</button></td>
+			<script type="text/javascript">        
+					function changeBackgroundBlack() {
+					document.body.style.background = 'black';
+						}
+					function changeBackgroundPic() {
+					document.body.style.background = 'url(https://cdn.discordapp.com/attachments/746919789204865037/788547041307131914/Screenshot_173.png) no-repeat';
+					document.body.style.backgroundSize = '100% 100%'
+						}
+			</script>
+
+					<!---->
+
+</tr>
+</tbody>
+</table>
+<hr>
+<p>test out my new toggle, maybe adding something to the future</p>
+<i class="fas fa-toggle-on toggle" onclick="toggle()" id="tb"></i>
+
+<script>
+	var toggled = false;
+function toggle() { 
+	let tog = 1;
+	if(!toggled) {
+		tog = -1
+		toggled = true;
+	}
+	else toggled = false;
+	document.getElementById("tb").setAttribute("style",`transform:scaleX(${tog})`);
+
+}
+
+
+</script><span>(Click)</span>
+</body>
+
+</html>
