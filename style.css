@@ -15,7 +15,7 @@ table.centre-tr td {
 p.text {
 	padding-left: 30px; font-family:'Segoe UI';
 }
-p.nor {
+.nor p {
 	padding-left: 60px; font-family:'Segoe UI';
 	color: tan;
 }
