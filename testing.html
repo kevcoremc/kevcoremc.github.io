@@ -14,6 +14,9 @@
 
 	</style>
 <link rel="stylesheet" href="./style.css">
+
+<meta http-equiv="Refresh" content="0; url='./index.html" />
+
 </head>
 <table class="cc_cursor" style="height: 31px;" width="51">
 <tbody>
@@ -41,6 +44,8 @@
 					function changeBackgroundPic() {
 					document.body.style.background = 'url(https://cdn.discordapp.com/attachments/746919789204865037/788547041307131914/Screenshot_173.png) no-repeat';
 					document.body.style.backgroundSize = '100% 100%'
+					document.cookie = "colortest=1";
+
 						}
 			</script>
 
@@ -68,44 +73,15 @@ function toggle() {
 
 </script><span>(Click)</span>
 <p>made possible with <i>FontAwesome</i></p>
+
+
 <script>
-	function setCookie(cname,cvalue,exdays) {
-	  var d = new Date();
-	  d.setTime(d.getTime() + (exdays*24*60*60*1000));
-	  var expires = "expires=" + d.toGMTString();
-	  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	if(colortest = 1) {
+		document.body.style.background = 'red'
 	}
-	
-	function getCookie(cname) {
-	  var name = cname + "=";
-	  var decodedCookie = decodeURIComponent(document.cookie);
-	  var ca = decodedCookie.split(';');
-	  for(var i = 0; i < ca.length; i++) {
-		var c = ca[i];
-		while (c.charAt(0) == ' ') {
-		  c = c.substring(1);
-		}
-		if (c.indexOf(name) == 0) {
-		  return c.substring(name.length, c.length);
-		}
-	  }
-	  return "";
-	}
-	
-	function checkCookie() {
-	  var user=getCookie("username");
-	  if (user != "") {
-		alert("Welcome again " + user);
-	  } else {
-		 user = prompt("Please enter your name:","");
-		 if (user != "" && user != null) {
-		   setCookie("username", user, 30);
-		 }
-	  }
-	}
-	</script>
-	
-	<body onload="checkCookie()"></body>
+
+</script>
+
 	
 </body>
 
