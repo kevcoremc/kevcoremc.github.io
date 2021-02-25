@@ -11,11 +11,24 @@
   font-size: 25px;
   color: aqua;
 }
+button{
+	cursor: pointer;
+	padding: 14px;
+	background-color: transparent;
+	border-color:transparent;
+	color: hotpink;
+	font-size: 16px;
+	border-radius: 3px;
+}
+button:hover {
+  color: white;
+  border-color: white;	
+  font-weight: bold;
 
+}
 	</style>
 <link rel="stylesheet" href="./style.css">
 
-<meta http-equiv="Refresh" content="0; url='./index.html" />
 
 </head>
 <table class="cc_cursor" style="height: 31px;" width="51">
@@ -25,14 +38,10 @@
 					<!--pages-->
 
 	<td style="width: 41px; color: orchid"><a href="https://kevcoremc.github.io/"><span><img style="float: left;" src="https://cdn.discordapp.com/attachments/782313784215601222/792900639226986534/purpletransparentKC.png" alt="KC logo" width="64" height="64" /></span></td>
-	<td style="width: 41px; font-family:'Segoe UI';"><a href="./index.html"><span style="color:hotpink"><strong>Home</strong></span></a></td>
-	<td>|</td>
-	<td style="width: 41px; font-family:'Segoe UI';"><a href="./about.html"><span style="color:hotpink"><strong>About</strong></span></a></td>
-	<td>|</td>
-	<td style="width: 41px; font-family:'Segoe UI';"><a href="./wiki.html"><span style="color:hotpink"><strong>Wiki</strong></span></a></td>
-	<td>|</td>
-	<td style="width: 41px; font-family:'Segoe UI';"><a href="./contents.html"><span style="color:hotpink"><strong>More</strong></span></a></td>
-	<td>­|</td>
+	<td style="width: 41px; font-family:'Segoe UI';"><a href="./index.html"><button>Home</button></a></td>
+	<td style="width: 41px; font-family:'Segoe UI';"><a href="./about.html"><button>About</button></a></td>
+	<td style="width: 41px; font-family:'Segoe UI';"><a href="./wiki.html"><button>Wiki</button></a></td>
+	<td style="width: 41px; font-family:'Segoe UI';"><a href="./contents.html"><button style=" color: aqua">All&nbsp;pages</button></a></td>
 	<td style="width: 41px; font-family:'Segoe UI';"><span style="color:white">Background:</span></a></td>
 
 		<td><button class="backcolor" onclick="changeBackgroundBlack();">Black</button></td>
@@ -44,7 +53,6 @@
 					function changeBackgroundPic() {
 					document.body.style.background = 'url(https://cdn.discordapp.com/attachments/746919789204865037/788547041307131914/Screenshot_173.png) no-repeat';
 					document.body.style.backgroundSize = '100% 100%'
-					document.cookie = "colortest=1";
 
 						}
 			</script>
@@ -64,6 +72,7 @@ function toggle() {
 	if(!toggled) {
 		tog = -1
 		toggled = true;
+		colortest = true;
 	}
 	else toggled = false;
 	document.getElementById("tb").setAttribute("style",`transform:scaleX(${tog})`);
@@ -76,8 +85,11 @@ function toggle() {
 
 
 <script>
-	if(colortest = 1) {
-		document.body.style.background = 'red'
+	if(colortest = true) {
+	}
+	else {
+		document.body.style.background = 'black'
+
 	}
 
 </script>
