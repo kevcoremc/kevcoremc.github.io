@@ -37,3 +37,6 @@ p.text {
 .pages {
   flex-direction: row;
 }
+a {
+  color: teal;
+}
