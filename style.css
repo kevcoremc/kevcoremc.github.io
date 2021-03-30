@@ -1,4 +1,5 @@
 body {
+  background-color: black;
   background-image: url("./aquavill.png");
   background-size: 100%;
   color : white;
@@ -39,4 +40,50 @@ p.text {
 }
 a {
   color: teal;
+}
+.toggle {
+  cursor: pointer;
+  font-size: 25px;
+  color: aqua;
+}
+button{
+	cursor: pointer;
+	padding: 14px;
+	background-color: transparent;
+	border-color:transparent;
+	color: hotpink;
+	font-size: 16px;
+	  font-weight: bold;
+
+	border-radius: 3px;
+}
+button:hover {
+  color: white;
+
+}
+.selpage{
+	color: aqua
+}
+.toggle {
+  cursor: pointer;
+  font-size: 25px;
+  color: aqua;
+}
+.pagebutton{
+	cursor: pointer;
+	padding: 14px;
+	background-color: transparent;
+	border-color:transparent;
+	color: hotpink;
+	font-size: 16px;
+	  font-weight: bold;
+
+	border-radius: 3px;
+}
+.pagebutton:hover {
+  color: white;
+
+}
+.selpage{
+	color: aqua
 }
