@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+  background-image: url("./aquavill.png");
+  background-size: 100%;
+  color : white;
+  font-family: Calibri; 
+   
+}
+
+table.centre-tr tr {
+	text-align: center;
+}
+table.centre-tr td {
+	width: 150px; text-align: center;;
+}
+p.text {
+	padding-left: 30px; ;
+}
+.nor p {
+	padding-left: 60px;
+	color: tan;
+}
+.lt {
+	color: lightgrey;
+	font-size: 8px;
+	font-style: italic;
+}
+.backcolor {
+    padding: 2px;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 4px;
+    border-color: white;
+  }
+.pages {
+  flex-direction: row;
+}
+a {
+  color: teal;
+}
+.toggle {
+  cursor: pointer;
+  font-size: 25px;
+  color: aqua;
+}
+button{
+	cursor: pointer;
+	padding: 14px;
+	background-color: transparent;
+	border-color:transparent;
+	color: hotpink;
+	font-size: 16px;
+	  font-weight: bold;
+
+	border-radius: 3px;
+}
+button:hover {
+  color: white;
+
+}
+.selpage{
+	color: aqua
+}
+.toggle {
+  cursor: pointer;
+  font-size: 25px;
+  color: aqua;
+}
+.pagebutton{
+	cursor: pointer;
+	padding: 14px;
+	background-color: transparent;
+	border-color:transparent;
+	color: hotpink;
+	font-size: 16px;
+	  font-weight: bold;
+
+	border-radius: 3px;
+}
+.pagebutton:hover {
+  color: white;
+
+}
+.selpage{
+	color: aqua
+}
